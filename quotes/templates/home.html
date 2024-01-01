@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h1>{{ symbol }}</h1> 
+<p>Open Price: ${{ open_price }}</p>
+<p>High Price: ${{ high_price }}</p>
+<p>Low Price: ${{ low_price }}</p>
+<p>Close Price: ${{ close_price }}</p>
+<p>Volume: {{ volume }}</p>
+
+
+<h4>Welcome to Stock Portfolio Hub! 📈 Explore real-time stock information by simply entering your desired company's Ticker Symbol in the search box above. Discover daily open, high, low, close prices, and volume with just a click.</h4>
+
+{% endblock %}
