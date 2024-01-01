@@ -1,4 +1,4 @@
-<h1>Stock Market Portfolio Website</h1>
+<h1>Stock Portfolio Website</h1>
 
 Introduction: 
 <p> Blending my love for coding and finance, I built this stock portfolio platform using Python for the backend. It syncs flawlessly with the Alpha Vantage API, letting users easily handle and monitor their stock portfolios with live market updates.</p>
