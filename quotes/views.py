@@ -62,10 +62,6 @@ def add_stock(request):
 			messages.success(request, ("Stock Has Been Added!"))
 			return redirect('add_stock')
 
-
-	# Inside the add_stock view function in views.py
-# (Please replace this code within your existing view function)
-
 	else:
 	    ticker = Stock.objects.all()
 	    output = []
@@ -85,7 +81,7 @@ def add_stock(request):
 	            close_price = "{:.2f}".format(float(latest_data['4. close']))
 	            volume = latest_data['5. volume']
 
-	            # Check if all data is available before appending to output
+	        
 	            if all([symbol, open_price, high_price, low_price, close_price, volume]):
 	                context = {
 	                    'symbol': symbol,
